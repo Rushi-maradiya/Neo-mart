@@ -16,7 +16,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
     <link href="../css/tiny-slider.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
-    <title>neo mart</title>
+    <title >neo mart</title>
 </head>
 
 <body>

@@ -4,7 +4,6 @@ session_start();
 include("../config/connect.php");
 include("../config/function.php");
 
-// Check if admin is not logged in, redirect to login page
 if (!isset($_SESSION['admin_logged_in'])) {
     header("Location: ../client/index.php");
     exit();
@@ -14,15 +13,13 @@ $totalUsers = countUsers($conn);
 $totalProducts = countProducts($conn);
 $totalOrders = countOrders($conn);
 
-// Include the head
 include("../inc/head.php");
 
-// Include the header
 include("../inc/header.php");
 ?>
 <link rel="stylesheet" href="../css/dash.css">
 <div class="container">
-    <!-- Start Welcome -->
+
     <div class="py-5 mb-2 lc-block">
         <div class="lc-block">
             <div editable="rich"><br>
@@ -36,9 +33,7 @@ include("../inc/header.php");
             </div>
         </div>
     </div>
-    <!-- End Welcome -->
 
-    <!-- Stats Users && Orders -->
     <div class="header-body">
         <div class="row">
             <div class="col-xl-4 col-lg-4">
@@ -97,7 +92,7 @@ include("../inc/header.php");
             </div>
         </div>
     </div>
-    <!-- End Stats -->
+
 </div>
 <script src="../js/bootstrap.bundle.min.js"></script>
 <script src="../js/tiny-slider.js"></script>

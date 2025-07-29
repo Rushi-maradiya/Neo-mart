@@ -1,12 +1,12 @@
 	<?php
 	if (isset($_SESSION['vendorName'])) {
 		$vendorName = $_SESSION['vendorName'];
-		$vendor_id = $_SESSION['vendor_id']; // Assuming vendor_id is stored in session
+		$vendor_id = $_SESSION['vendor_id'];
 	?>
 		<nav class="custom-navbar navbar navbar-expand-md navbar-dark sticky-top" arial-label="Furni navigation bar">
 			<div class="container">
 				<a class="navbar-brand" href="/neo mart/client/index.php">
-					<h2>neo mart</h2>
+<h2 class="text-white bg-dark p-3 m-0">NEO MART</h2>
 				</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
