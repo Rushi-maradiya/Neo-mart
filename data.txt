@@ -1,0 +1,11 @@
+Admin:
+Email: r@gmail.com
+Password: 123
+
+Vendor 1:
+Email: jack@gmail.com
+Password: 123
+
+Vendor 2:
+Email: mark@gmail.com
+Password: 123
